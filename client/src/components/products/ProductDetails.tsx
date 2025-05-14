@@ -102,7 +102,7 @@ const ProductDetails = ({ productSlug }: ProductDetailsProps) => {
             {/* Optionally add share buttons or other actions here */}
           </div>
           
-          <p className="text-gray-600 mb-6">{product.description}</p>
+          <p className="text-gray-900 mb-6">{product.description}</p>
           
           <div className="text-2xl font-bold text-primary-900 mb-6">
             {product.price}

@@ -40,9 +40,9 @@ const BlogCard = ({ post }: BlogCardProps) => {
           href={`/blog/${post.slug}`}
           className="block"
         >
-          <h3 className="text-xl font-semibold mb-3 hover:text-primary-700">{post.title}</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-3 hover:text-primary-700">{post.title}</h3>
         </Link>
-        <p className="text-gray-600 mb-4">{post.summary}</p>
+        <p className="text-gray-900 mb-4">{post.summary}</p>
         <Link 
           href={`/blog/${post.slug}`}
           className="text-primary-700 hover:text-primary-900 font-medium inline-flex items-center"

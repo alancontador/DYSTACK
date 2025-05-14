@@ -33,7 +33,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           href={`/produtos/${product.slug}`}
           className="block"
         >
-          <h3 className="text-lg font-semibold mb-2 hover:text-primary-700">{product.name}</h3>
+          <h3 className="text-lg font-semibold text-gray-900 mb-2 hover:text-primary-700">{product.name}</h3>
         </Link>
         <div className="flex justify-between items-center mb-3">
           <span className="text-gray-500">
