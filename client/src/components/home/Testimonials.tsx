@@ -65,7 +65,7 @@ const Testimonials = () => {
             <Card key={testimonial.id} className="bg-gray-50">
               <CardContent className="p-6">
                 <StarRating rating={testimonial.rating} />
-                <p className="text-gray-600 mb-4">"{testimonial.content}"</p>
+                <p className="text-gray-900 mb-4">"{testimonial.content}"</p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-gray-600">
                     <i className="fas fa-user"></i>

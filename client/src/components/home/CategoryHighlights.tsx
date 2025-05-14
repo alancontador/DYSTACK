@@ -40,7 +40,7 @@ const CategoryHighlights = () => {
                 <div className="w-16 h-16 flex items-center justify-center mb-3 text-primary-700">
                   <i className={`fas ${category.icon} text-3xl`}></i>
                 </div>
-                <h3 className="font-medium text-gray-800">{category.name}</h3>
+                <h3 className="font-medium text-gray-900">{category.name}</h3>
               </div>
             </Link>
           ))}
