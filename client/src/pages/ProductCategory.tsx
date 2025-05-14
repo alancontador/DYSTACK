@@ -37,10 +37,8 @@ const ProductCategory = () => {
           <CardContent className="p-6">
             <h2 className="text-xl font-semibold text-red-600 mb-2">Categoria não encontrada</h2>
             <p className="text-gray-600 mb-4">A categoria que você está procurando não existe ou foi removida.</p>
-            <Link href="/produtos">
-              <a className="text-primary-700 hover:text-primary-900 font-medium">
-                Ver todas as categorias
-              </a>
+            <Link href="/produtos" className="text-primary-700 hover:text-primary-900 font-medium">
+              Ver todas as categorias
             </Link>
           </CardContent>
         </Card>
@@ -64,8 +62,8 @@ const ProductCategory = () => {
             <BreadcrumbList>
               <BreadcrumbItem>
                 <BreadcrumbLink asChild>
-                  <Link href="/">
-                    <a><Home size={16} /></a>
+                  <Link href="/" className="flex">
+                    <Home size={16} />
                   </Link>
                 </BreadcrumbLink>
               </BreadcrumbItem>
@@ -74,8 +72,8 @@ const ProductCategory = () => {
               </BreadcrumbSeparator>
               <BreadcrumbItem>
                 <BreadcrumbLink asChild>
-                  <Link href="/produtos">
-                    <a>Produtos</a>
+                  <Link href="/produtos" className="text-gray-600 hover:text-gray-900">
+                    Produtos
                   </Link>
                 </BreadcrumbLink>
               </BreadcrumbItem>

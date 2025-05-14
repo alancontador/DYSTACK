@@ -64,8 +64,8 @@ const ProductDetails = () => {
             <BreadcrumbList>
               <BreadcrumbItem>
                 <BreadcrumbLink asChild>
-                  <Link href="/">
-                    <a><Home size={16} /></a>
+                  <Link href="/" className="flex">
+                    <Home size={16} />
                   </Link>
                 </BreadcrumbLink>
               </BreadcrumbItem>
@@ -74,8 +74,8 @@ const ProductDetails = () => {
               </BreadcrumbSeparator>
               <BreadcrumbItem>
                 <BreadcrumbLink asChild>
-                  <Link href="/produtos">
-                    <a>Produtos</a>
+                  <Link href="/produtos" className="text-gray-600 hover:text-gray-900">
+                    Produtos
                   </Link>
                 </BreadcrumbLink>
               </BreadcrumbItem>
@@ -87,8 +87,8 @@ const ProductDetails = () => {
                   </BreadcrumbSeparator>
                   <BreadcrumbItem>
                     <BreadcrumbLink asChild>
-                      <Link href={`/produtos/categoria/${category.slug}`}>
-                        <a>{category.name}</a>
+                      <Link href={`/produtos/categoria/${category.slug}`} className="text-gray-600 hover:text-gray-900">
+                        {category.name}
                       </Link>
                     </BreadcrumbLink>
                   </BreadcrumbItem>
