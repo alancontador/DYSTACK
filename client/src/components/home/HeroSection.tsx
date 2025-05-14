@@ -16,7 +16,7 @@ const HeroSection = () => {
               <Link href="/produtos" className="bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-6 rounded-md text-center transition">
                 Conheça Nossos Produtos
               </Link>
-              <Link href="/contato" className="bg-white hover:bg-gray-100 text-primary-900 font-medium py-3 px-6 rounded-md text-center transition">
+              <Link href="/contato" className="bg-white hover:bg-gray-100 text-primary-700 font-bold py-3 px-6 rounded-md text-center transition shadow-md">
                 Solicite um Orçamento
               </Link>
             </div>

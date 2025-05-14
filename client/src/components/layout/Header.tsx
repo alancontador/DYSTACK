@@ -27,20 +27,20 @@ const Header = () => {
       <div className="hidden md:block bg-primary-900 text-white">
         <div className="container mx-auto px-4 py-2 flex justify-between items-center">
           <div className="flex items-center space-x-4 text-sm">
-            <a href="tel:+551199999999" className="flex items-center hover:text-accent-300 transition">
+            <a href="tel:+551199999999" className="flex items-center text-white hover:text-secondary-300 transition font-medium">
               <i className="fas fa-phone mr-2"></i> (11) 9999-9999
             </a>
-            <a href="https://wa.me/5511999999999" className="flex items-center hover:text-accent-300 transition">
+            <a href="https://wa.me/5511999999999" className="flex items-center text-white hover:text-secondary-300 transition font-medium">
               <i className="fab fa-whatsapp mr-2"></i> WhatsApp
             </a>
-            <span className="flex items-center">
+            <span className="flex items-center text-white">
               <i className="far fa-clock mr-2"></i> Seg-Sex: 8h-18h | Sáb: 8h-12h
             </span>
           </div>
           <div className="flex items-center space-x-3">
-            <a href="#" className="hover:text-accent-300 transition"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="hover:text-accent-300 transition"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="hover:text-accent-300 transition"><i className="fab fa-linkedin-in"></i></a>
+            <a href="#" className="text-white hover:text-secondary-300 transition"><i className="fab fa-facebook-f"></i></a>
+            <a href="#" className="text-white hover:text-secondary-300 transition"><i className="fab fa-instagram"></i></a>
+            <a href="#" className="text-white hover:text-secondary-300 transition"><i className="fab fa-linkedin-in"></i></a>
           </div>
         </div>
       </div>
@@ -103,26 +103,26 @@ const Header = () => {
                   <Link href="/blog" className="font-medium text-gray-800 hover:text-primary-700 py-2">Blog</Link>
                   <Link href="/sobre" className="font-medium text-gray-800 hover:text-primary-700 py-2">Sobre</Link>
                   <Link href="/contato" className="font-medium text-gray-800 hover:text-primary-700 py-2">Contato</Link>
-                  <Link href="/contato" className="font-medium text-secondary-600 hover:text-secondary-700 py-2 flex items-center">
+                  <Link href="/contato" className="font-medium text-secondary-600 hover:text-secondary-700 py-2 flex items-center font-bold">
                     <i className="far fa-file-alt mr-2"></i> Solicitar Orçamento
                   </Link>
                 </nav>
                 <div className="mt-6 pt-6 border-t border-gray-200">
                   <div className="flex flex-col space-y-2 text-sm">
-                    <a href="tel:+551199999999" className="flex items-center text-gray-600 hover:text-primary-700">
+                    <a href="tel:+551199999999" className="flex items-center text-gray-800 hover:text-primary-700 font-medium">
                       <i className="fas fa-phone mr-2"></i> (11) 9999-9999
                     </a>
-                    <a href="https://wa.me/5511999999999" className="flex items-center text-gray-600 hover:text-primary-700">
+                    <a href="https://wa.me/5511999999999" className="flex items-center text-gray-800 hover:text-primary-700 font-medium">
                       <i className="fab fa-whatsapp mr-2"></i> WhatsApp
                     </a>
-                    <div className="flex items-center text-gray-600">
+                    <div className="flex items-center text-gray-800 font-medium">
                       <i className="far fa-clock mr-2"></i> Seg-Sex: 8h-18h | Sáb: 8h-12h
                     </div>
                   </div>
                   <div className="flex space-x-4 mt-4">
-                    <a href="#" className="text-gray-600 hover:text-primary-700"><i className="fab fa-facebook-f"></i></a>
-                    <a href="#" className="text-gray-600 hover:text-primary-700"><i className="fab fa-instagram"></i></a>
-                    <a href="#" className="text-gray-600 hover:text-primary-700"><i className="fab fa-linkedin-in"></i></a>
+                    <a href="#" className="text-gray-800 hover:text-primary-700"><i className="fab fa-facebook-f"></i></a>
+                    <a href="#" className="text-gray-800 hover:text-primary-700"><i className="fab fa-instagram"></i></a>
+                    <a href="#" className="text-gray-800 hover:text-primary-700"><i className="fab fa-linkedin-in"></i></a>
                   </div>
                 </div>
               </div>
