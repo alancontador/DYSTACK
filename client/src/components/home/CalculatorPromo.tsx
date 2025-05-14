@@ -116,10 +116,11 @@ const CalculatorPromo = () => {
                 </form>
                 
                 <div className="mt-6 text-center">
-                  <Link href="/calculadoras">
-                    <a className="inline-flex items-center text-primary-700 hover:text-primary-900 font-medium">
-                      Ver todas as calculadoras <i className="fas fa-arrow-right ml-2"></i>
-                    </a>
+                  <Link 
+                    href="/calculadoras"
+                    className="inline-flex items-center text-primary-700 hover:text-primary-900 font-medium"
+                  >
+                    Ver todas as calculadoras <i className="fas fa-arrow-right ml-2"></i>
                   </Link>
                 </div>
               </div>

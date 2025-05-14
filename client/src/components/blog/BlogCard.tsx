@@ -24,27 +24,30 @@ const BlogCard = ({ post }: BlogCardProps) => {
 
   return (
     <Card className="bg-white rounded-lg overflow-hidden shadow-sm">
-      <Link href={`/blog/${post.slug}`}>
-        <a>
-          <img 
-            src={post.imageUrl} 
-            alt={post.title} 
-            className="w-full h-48 object-cover"
-          />
-        </a>
+      <Link 
+        href={`/blog/${post.slug}`}
+        className="block"
+      >
+        <img 
+          src={post.imageUrl} 
+          alt={post.title} 
+          className="w-full h-48 object-cover"
+        />
       </Link>
       <CardContent className="p-6">
         <div className="text-sm text-gray-500 mb-2">{formattedDate}</div>
-        <Link href={`/blog/${post.slug}`}>
-          <a>
-            <h3 className="text-xl font-semibold mb-3 hover:text-primary-700">{post.title}</h3>
-          </a>
+        <Link 
+          href={`/blog/${post.slug}`}
+          className="block"
+        >
+          <h3 className="text-xl font-semibold mb-3 hover:text-primary-700">{post.title}</h3>
         </Link>
         <p className="text-gray-600 mb-4">{post.summary}</p>
-        <Link href={`/blog/${post.slug}`}>
-          <a className="text-primary-700 hover:text-primary-900 font-medium inline-flex items-center">
-            Ler mais <i className="fas fa-arrow-right ml-2"></i>
-          </a>
+        <Link 
+          href={`/blog/${post.slug}`}
+          className="text-primary-700 hover:text-primary-900 font-medium inline-flex items-center"
+        >
+          Ler mais <i className="fas fa-arrow-right ml-2"></i>
         </Link>
       </CardContent>
     </Card>
