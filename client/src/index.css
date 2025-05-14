@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 221 83% 53%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 24 95% 47%;
+  --secondary-foreground: 60 9.1% 97.8%;
+  --accent: 35 92% 50%;
+  --accent-foreground: 60 9.1% 97.8%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 220 83% 53%;
+  --radius: 0.5rem;
+  
+  /* Custom colors matching design */
+  --primary-50: 217 100% 97%;
+  --primary-100: 218 100% 95%;
+  --primary-500: 217 91% 60%;
+  --primary-700: 224 76% 48%;
+  --primary-900: 226 71% 40%;
+  
+  --secondary-50: 33 100% 97%;
+  --secondary-100: 34 100% 92%;
+  --secondary-500: 25 95% 53%;
+  --secondary-600: 22 90% 49%;
+  --secondary-700: 21 90% 41%;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 217 91% 60%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 25 95% 53%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 35 92% 50%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-gray-50 text-foreground;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-700 hover:bg-primary-900 text-white font-medium py-2 px-4 rounded-md transition;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-2 px-4 rounded-md transition;
+  }
+  
+  .btn-outline {
+    @apply bg-white hover:bg-gray-100 text-primary-900 font-medium py-2 px-4 rounded-md border border-gray-300 transition;
+  }
+}
