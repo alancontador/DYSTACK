@@ -13,15 +13,11 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Dystack: Qualidade e Agilidade para sua Construção</h1>
             <p className="text-xl md:text-2xl mb-8">Entrega rápida, variedade de produtos e o melhor atendimento para o seu projeto.</p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Link href="/produtos">
-                <a className="bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-6 rounded-md text-center transition">
-                  Conheça Nossos Produtos
-                </a>
+              <Link href="/produtos" className="bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-6 rounded-md text-center transition">
+                Conheça Nossos Produtos
               </Link>
-              <Link href="/contato">
-                <a className="bg-white hover:bg-gray-100 text-primary-900 font-medium py-3 px-6 rounded-md text-center transition">
-                  Solicite um Orçamento
-                </a>
+              <Link href="/contato" className="bg-white hover:bg-gray-100 text-primary-900 font-medium py-3 px-6 rounded-md text-center transition">
+                Solicite um Orçamento
               </Link>
             </div>
           </div>

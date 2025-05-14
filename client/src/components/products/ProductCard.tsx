@@ -18,20 +18,22 @@ interface ProductCardProps {
 const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <Card className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
-      <Link href={`/produtos/${product.slug}`}>
-        <a>
-          <img 
-            src={product.imageUrl} 
-            alt={product.name} 
-            className="w-full h-48 object-cover"
-          />
-        </a>
+      <Link 
+        href={`/produtos/${product.slug}`}
+        className="block"
+      >
+        <img 
+          src={product.imageUrl} 
+          alt={product.name} 
+          className="w-full h-48 object-cover"
+        />
       </Link>
       <CardContent className="p-4">
-        <Link href={`/produtos/${product.slug}`}>
-          <a>
-            <h3 className="text-lg font-semibold mb-2 hover:text-primary-700">{product.name}</h3>
-          </a>
+        <Link 
+          href={`/produtos/${product.slug}`}
+          className="block"
+        >
+          <h3 className="text-lg font-semibold mb-2 hover:text-primary-700">{product.name}</h3>
         </Link>
         <div className="flex justify-between items-center mb-3">
           <span className="text-gray-500">

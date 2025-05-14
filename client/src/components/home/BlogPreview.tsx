@@ -40,10 +40,11 @@ const BlogPreview = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-bold">Dicas para sua Obra</h2>
-            <Link href="/blog">
-              <a className="text-primary-700 hover:text-primary-900 font-medium flex items-center">
-                Ver Todas as Dicas <i className="fas fa-arrow-right ml-2"></i>
-              </a>
+            <Link 
+              href="/blog"
+              className="text-primary-700 hover:text-primary-900 font-medium flex items-center"
+            >
+              Ver Todas as Dicas <i className="fas fa-arrow-right ml-2"></i>
             </Link>
           </div>
           <div className="text-center text-red-500 py-10">Erro ao carregar artigos do blog</div>
@@ -57,10 +58,11 @@ const BlogPreview = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-2xl sm:text-3xl font-bold">Dicas para sua Obra</h2>
-          <Link href="/blog">
-            <a className="text-primary-700 hover:text-primary-900 font-medium flex items-center">
-              Ver Todas as Dicas <i className="fas fa-arrow-right ml-2"></i>
-            </a>
+          <Link 
+            href="/blog"
+            className="text-primary-700 hover:text-primary-900 font-medium flex items-center"
+          >
+            Ver Todas as Dicas <i className="fas fa-arrow-right ml-2"></i>
           </Link>
         </div>
         

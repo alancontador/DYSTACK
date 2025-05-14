@@ -31,15 +31,17 @@ const CategoryHighlights = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {categories?.map((category: any) => (
-            <Link key={category.id} href={`/produtos/categoria/${category.slug}`}>
-              <a className="group">
-                <div className="bg-gray-100 p-4 rounded-lg flex flex-col items-center text-center transition transform group-hover:bg-gray-200 group-hover:shadow-md">
-                  <div className="w-16 h-16 flex items-center justify-center mb-3 text-primary-700">
-                    <i className={`fas ${category.icon} text-3xl`}></i>
-                  </div>
-                  <h3 className="font-medium text-gray-800">{category.name}</h3>
+            <Link 
+              key={category.id} 
+              href={`/produtos/categoria/${category.slug}`}
+              className="group"
+            >
+              <div className="bg-gray-100 p-4 rounded-lg flex flex-col items-center text-center transition transform group-hover:bg-gray-200 group-hover:shadow-md">
+                <div className="w-16 h-16 flex items-center justify-center mb-3 text-primary-700">
+                  <i className={`fas ${category.icon} text-3xl`}></i>
                 </div>
-              </a>
+                <h3 className="font-medium text-gray-800">{category.name}</h3>
+              </div>
             </Link>
           ))}
         </div>
