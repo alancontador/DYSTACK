@@ -94,8 +94,8 @@ const BlogPost = () => {
               <BreadcrumbList>
                 <BreadcrumbItem>
                   <BreadcrumbLink asChild>
-                    <Link href="/">
-                      <a><Home size={16} /></a>
+                    <Link href="/" className="flex">
+                      <Home size={16} />
                     </Link>
                   </BreadcrumbLink>
                 </BreadcrumbItem>
@@ -104,8 +104,8 @@ const BlogPost = () => {
                 </BreadcrumbSeparator>
                 <BreadcrumbItem>
                   <BreadcrumbLink asChild>
-                    <Link href="/blog">
-                      <a>Blog</a>
+                    <Link href="/blog" className="text-gray-600 hover:text-gray-900">
+                      Blog
                     </Link>
                   </BreadcrumbLink>
                 </BreadcrumbItem>
@@ -143,22 +143,24 @@ const BlogPost = () => {
             <div className="border-t border-gray-200 pt-6 mt-10">
               <div className="flex flex-col sm:flex-row justify-between">
                 {prevPost ? (
-                  <Link href={`/blog/${prevPost.slug}`}>
-                    <a className="flex items-center text-primary-700 hover:text-primary-900 mb-4 sm:mb-0">
-                      <ArrowLeft size={16} className="mr-2" />
-                      <span className="font-medium">Artigo Anterior</span>
-                    </a>
+                  <Link 
+                    href={`/blog/${prevPost.slug}`}
+                    className="flex items-center text-primary-700 hover:text-primary-900 mb-4 sm:mb-0"
+                  >
+                    <ArrowLeft size={16} className="mr-2" />
+                    <span className="font-medium">Artigo Anterior</span>
                   </Link>
                 ) : (
                   <div></div>
                 )}
                 
                 {nextPost && (
-                  <Link href={`/blog/${nextPost.slug}`}>
-                    <a className="flex items-center text-primary-700 hover:text-primary-900">
-                      <span className="font-medium">Próximo Artigo</span>
-                      <ArrowRight size={16} className="ml-2" />
-                    </a>
+                  <Link 
+                    href={`/blog/${nextPost.slug}`}
+                    className="flex items-center text-primary-700 hover:text-primary-900"
+                  >
+                    <span className="font-medium">Próximo Artigo</span>
+                    <ArrowRight size={16} className="ml-2" />
                   </Link>
                 )}
               </div>
