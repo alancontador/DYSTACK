@@ -1,0 +1,101 @@
+Esboço Conceitual do Site Dystack
+
+PÁGINA INICIAL (Homepage)
+
+Objetivo Principal: Causar uma ótima primeira impressão, comunicar o valor da Dystack e direcionar o usuário para as seções mais importantes.
+Elementos Visuais e de Conteúdo:
+Banner Principal (Hero Section):
+Imagem/Vídeo: Impactante, mostrando materiais de qualidade, uma obra sendo realizada, ou a equipe Dystack em ação.
+Título Forte: Ex: "Dystack: Qualidade e Agilidade para sua Construção do Início ao Fim." ou "Seu Parceiro de Confiança em Materiais de Construção."
+Subtítulo: Breve descrição dos diferenciais (ex: "Entrega rápida, variedade de produtos e o melhor atendimento.").
+Call-to-Action (CTA) Principal: Botão bem visível, ex: "Veja Nossos Produtos" ou "Solicite um Orçamento Rápido".
+Barra de Busca Prominente: Para facilitar a procura imediata por produtos.
+Categorias de Produtos em Destaque:
+Ícones ou imagens representando as principais categorias (Tijolos, Cimento, Areia, Ferragens, Ferramentas, etc.).
+Links diretos para essas seções.
+Bloco "Por que escolher a Dystack?":
+Ícones e textos curtos destacando diferenciais:
+Qualidade Garantida (+47.000 clientes)
+Entrega Rápida (Consulte nossas áreas)
+Atendimento Especializado (93% satisfação)
+Variedade de Produtos (Tudo para sua obra)
+Promoções ou Ofertas Especiais (se houver): Um carrossel ou seção dedicada.
+Chamada para Ferramentas Úteis:
+Ex: "Precisando calcular a quantidade de material? Use nossa Calculadora!" (link para a ferramenta).
+Depoimentos Curtos de Clientes: 2-3 depoimentos em destaque, com link para uma página com mais.
+Chamada para o Blog/Dicas: "Confira nossas dicas para sua obra!" com os últimos 2-3 posts.
+Rodapé Completo: Links úteis (Sobre Nós, Contato, FAQ, Políticas), informações de contato (telefone, WhatsApp, e-mail), links para redes sociais, horário de funcionamento, endereço (se aplicável).
+SEÇÃO DE PRODUTOS
+
+Objetivo: Permitir que o cliente encontre facilmente o que precisa, com todas as informações necessárias para tomar uma decisão.
+Estrutura:
+Página Principal de Produtos (Listagem Geral):
+Filtros laterais/superiores: Por categoria, marca, preço, mais vendidos, etc.
+Opções de visualização: Grade ou lista.
+Cards de produto com: Foto principal, nome do produto, preço (ou "Consulte"), botão "Ver Detalhes" ou "Adicionar ao Orçamento".
+Página de Categoria de Produto (Ex: "Cimentos"):
+Breve descrição da categoria.
+Listagem dos produtos específicos daquela categoria (com filtros próprios, se necessário).
+Página de Detalhe do Produto (Ex: "Cimento CPII 50kg"):
+Galeria de Imagens/Vídeos: Múltiplos ângulos, detalhes, embalagem, talvez em uso.
+Nome Completo do Produto e Marca.
+Preço (ou "Solicite Orçamento").
+Botão "Adicionar ao Orçamento" ou "Comprar" (se for e-commerce direto).
+Descrição Detalhada: Características, vantagens, indicação de uso.
+Especificações Técnicas: Peso, dimensões, rendimento, normas, composição, etc. (em formato de tabela ou lista).
+Documentos para Download (se aplicável): Ficha técnica, manual.
+Produtos Relacionados/Clientes Também Compraram: Para cross-sell e up-sell.
+Avaliações e Perguntas de Clientes sobre o Produto.
+SEÇÃO DE RECURSOS / SUPORTE (Ex: "Ajuda & Dicas")
+
+Objetivo: Oferecer valor agregado, educar o cliente e posicionar a Dystack como especialista.
+Estrutura:
+Calculadoras de Materiais:
+Página com diferentes tipos de calculadoras (parede, piso, telhado, etc.).
+Interface simples e intuitiva.
+Blog:
+Listagem de artigos com filtros por categoria (Dicas de Obra, Materiais, Reformas, Novidades).
+Página de artigo com layout limpo, boa legibilidade, imagens, e espaço para comentários.
+FAQ (Perguntas Frequentes):
+Organizado por tópicos (Pedidos, Pagamento, Entrega, Produtos).
+Função de busca dentro do FAQ.
+Glossário de Termos da Construção (Opcional, mas útil).
+SOBRE NÓS
+
+Objetivo: Construir confiança e apresentar a história e os valores da Dystack.
+Elementos:
+Nossa História: Como a Dystack começou, sua evolução.
+Missão, Visão e Valores.
+Nossa Equipe (Opcional): Fotos e pequenas biografias dos principais membros podem humanizar.
+Nossas Instalações (se houver loja física): Fotos da loja, do estoque.
+Compromisso com a Qualidade/Cliente.
+CONTATO / ORÇAMENTO
+
+Objetivo: Facilitar ao máximo o contato e a solicitação de orçamentos.
+Elementos:
+Formulário de Contato Completo: Campos para nome, e-mail, telefone, assunto, mensagem.
+Formulário de Solicitação de Orçamento Detalhado:
+Dados do cliente.
+Local da obra (para cálculo de frete).
+Lista de materiais desejados (pode ser um campo de texto livre ou integrado com o catálogo, permitindo adicionar itens).
+Espaço para observações.
+Informações de Contato Direto:
+Telefone(s) clicáveis.
+Link direto para WhatsApp.
+Endereço de e-mail.
+Endereço Físico com Mapa Integrado (Google Maps).
+Horário de Funcionamento.
+Elementos Transversais (presentes em várias páginas):
+
+Cabeçalho Fixo: Logo, menu de navegação principal, ícone de busca, link para carrinho/orçamento, contato rápido (telefone/WhatsApp).
+Rodapé Completo: Como descrito na Homepage.
+Botão Flutuante de WhatsApp.
+Avisos de Cookies e Política de Privacidade.
+Dicas para a Criatividade no Design:
+
+Paleta de Cores: Utilize cores que transmitam confiança e profissionalismo, comuns no setor de construção (tons de cinza, azul, laranja, amarelo podem funcionar bem, dependendo da identidade da marca Dystack).
+Tipografia: Escolha fontes legíveis tanto para títulos quanto para corpo de texto.
+Imagens e Ícones: Invista em fotos de boa qualidade dos produtos e, se possível, de obras e da equipe. Ícones podem ajudar a quebrar o texto e guiar o usuário.
+Espaçamento (Whitespace): Não sobrecarregue as páginas. Use espaços em branco para "respirar" e facilitar a leitura.
+Consistência Visual: Mantenha um estilo visual coeso em todas as páginas.
+Use este esboço como um ponto de partida. Visualize cada seção, pense em como o usuário vai interagir com ela e como você pode tornar essa interação mais fácil, agradável e eficiente. Boa criação!
