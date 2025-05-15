@@ -4,60 +4,86 @@
 
 :root {
   --background: 0 0% 100%;
-  --foreground: 20 14.3% 4.1%;
-  --muted: 60 4.8% 95.9%;
-  --muted-foreground: 25 5.3% 44.7%;
+  --foreground: 30 10% 10%;
+  --muted: 20 5% 96%;
+  --muted-foreground: 30 8% 30%;
   --popover: 0 0% 100%;
-  --popover-foreground: 20 14.3% 4.1%;
+  --popover-foreground: 30 10% 10%;
   --card: 0 0% 100%;
-  --card-foreground: 20 14.3% 4.1%;
+  --card-foreground: 30 10% 10%;
   --border: 20 5.9% 90%;
   --input: 20 5.9% 90%;
-  --primary: 221 83% 53%;
-  --primary-foreground: 210 40% 98%;
-  --secondary: 24 95% 47%;
-  --secondary-foreground: 60 9.1% 97.8%;
-  --accent: 35 92% 50%;
-  --accent-foreground: 60 9.1% 97.8%;
+  
+  /* Nova paleta principal - Verde terroso (verde oliva) */
+  --primary: 95 35% 35%;
+  --primary-foreground: 95 10% 95%;
+  
+  /* Nova cor secundária - Terracota */
+  --secondary: 15 80% 45%;
+  --secondary-foreground: 15 10% 95%;
+  
+  /* Nova cor de destaque - Marrom acobreado */
+  --accent: 30 60% 45%;
+  --accent-foreground: 30 10% 95%;
+  
   --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 60 9.1% 97.8%;
-  --ring: 220 83% 53%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 95 35% 35%;
   --radius: 0.5rem;
   
-  /* Custom colors matching design */
-  --primary-50: 217 100% 97%;
-  --primary-100: 218 100% 95%;
-  --primary-500: 217 91% 60%;
-  --primary-700: 224 76% 48%;
-  --primary-900: 226 71% 40%;
+  /* Custom colors matching new design */
+  --primary-50: 95 50% 97%;
+  --primary-100: 95 50% 95%;
+  --primary-500: 95 40% 45%;
+  --primary-700: 95 35% 35%;
+  --primary-900: 95 35% 25%;
   
-  --secondary-50: 33 100% 97%;
-  --secondary-100: 34 100% 92%;
-  --secondary-500: 25 95% 53%;
-  --secondary-600: 22 90% 49%;
-  --secondary-700: 21 90% 41%;
+  --secondary-50: 15 80% 97%;
+  --secondary-100: 15 70% 92%;
+  --secondary-500: 15 80% 45%;
+  --secondary-600: 15 75% 40%;
+  --secondary-700: 15 75% 35%;
+  
+  /* Novas cores de cinzas neutros */
+  --gray-50: 30 10% 98%;
+  --gray-100: 30 10% 94%;
+  --gray-200: 30 10% 90%;
+  --gray-300: 30 10% 80%;
+  --gray-400: 30 10% 70%;
+  --gray-500: 30 10% 60%;
+  --gray-600: 30 10% 50%;
+  --gray-700: 30 10% 40%;
+  --gray-800: 30 10% 25%;
+  --gray-900: 30 10% 15%;
 }
 
 .dark {
-  --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
-  --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
-  --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --primary: 217 91% 60%;
-  --primary-foreground: 210 40% 98%;
-  --secondary: 25 95% 53%;
-  --secondary-foreground: 0 0% 98%;
-  --accent: 35 92% 50%;
-  --accent-foreground: 0 0% 98%;
-  --destructive: 0 62.8% 30.6%;
+  --background: 30 15% 10%;
+  --foreground: 30 10% 95%;
+  --muted: 30 15% 15%;
+  --muted-foreground: 30 10% 80%;
+  --popover: 30 15% 10%;
+  --popover-foreground: 30 10% 95%;
+  --card: 30 15% 12%;
+  --card-foreground: 30 10% 95%;
+  --border: 30 15% 20%;
+  --input: 30 15% 20%;
+  
+  /* Verde mais vivo no modo escuro */
+  --primary: 95 40% 45%;
+  --primary-foreground: 95 10% 98%;
+  
+  /* Terracota mais brilhante no modo escuro */
+  --secondary: 15 85% 55%;
+  --secondary-foreground: 15 10% 98%;
+  
+  /* Marrom mais claro no modo escuro */
+  --accent: 30 65% 55%;
+  --accent-foreground: 30 10% 98%;
+  
+  --destructive: 0 70% 50%;
   --destructive-foreground: 0 0% 98%;
-  --ring: 240 4.9% 83.9%;
+  --ring: 95 40% 45%;
   --radius: 0.5rem;
 }
 

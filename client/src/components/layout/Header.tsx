@@ -27,10 +27,10 @@ const Header = () => {
       <div className="hidden md:block bg-primary-900 text-white">
         <div className="container mx-auto px-4 py-2 flex justify-between items-center">
           <div className="flex items-center space-x-4 text-sm">
-            <a href="tel:+551199999999" className="flex items-center text-white hover:text-secondary-300 transition font-medium">
+            <a href="tel:+551199999999" className="flex items-center text-white hover:text-secondary-500 transition font-medium">
               <i className="fas fa-phone mr-2"></i> (11) 9999-9999
             </a>
-            <a href="https://wa.me/5511999999999" className="flex items-center text-white hover:text-secondary-300 transition font-medium">
+            <a href="https://wa.me/5511999999999" className="flex items-center text-white hover:text-secondary-500 transition font-medium">
               <i className="fab fa-whatsapp mr-2"></i> WhatsApp
             </a>
             <span className="flex items-center text-white">
@@ -38,9 +38,9 @@ const Header = () => {
             </span>
           </div>
           <div className="flex items-center space-x-3">
-            <a href="#" className="text-white hover:text-secondary-300 transition"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="text-white hover:text-secondary-300 transition"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="text-white hover:text-secondary-300 transition"><i className="fab fa-linkedin-in"></i></a>
+            <a href="#" className="text-white hover:text-secondary-500 transition"><i className="fab fa-facebook-f"></i></a>
+            <a href="#" className="text-white hover:text-secondary-500 transition"><i className="fab fa-instagram"></i></a>
+            <a href="#" className="text-white hover:text-secondary-500 transition"><i className="fab fa-linkedin-in"></i></a>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ const Header = () => {
             <Link href="/blog" className={`font-medium ${location === '/blog' ? 'text-primary-700' : 'text-gray-800 hover:text-primary-700'}`}>Blog</Link>
             <Link href="/sobre" className={`font-medium ${location === '/sobre' ? 'text-primary-700' : 'text-gray-800 hover:text-primary-700'}`}>Sobre</Link>
             <Link href="/contato" className={`font-medium ${location === '/contato' ? 'text-primary-700' : 'text-gray-800 hover:text-primary-700'}`}>Contato</Link>
-            <Link href="/contato" className="flex items-center text-secondary-600 font-medium hover:text-secondary-700">
+            <Link href="/contato" className="flex items-center bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-1.5 px-3 rounded-md">
               <i className="far fa-file-alt mr-1"></i> Orçamento
             </Link>
           </nav>
@@ -103,7 +103,7 @@ const Header = () => {
                   <Link href="/blog" className="font-medium text-gray-800 hover:text-primary-700 py-2">Blog</Link>
                   <Link href="/sobre" className="font-medium text-gray-800 hover:text-primary-700 py-2">Sobre</Link>
                   <Link href="/contato" className="font-medium text-gray-800 hover:text-primary-700 py-2">Contato</Link>
-                  <Link href="/contato" className="font-medium text-secondary-600 hover:text-secondary-700 py-2 flex items-center font-bold">
+                  <Link href="/contato" className="font-medium text-white bg-secondary-600 hover:bg-secondary-700 py-2 px-3 rounded-md flex items-center font-bold">
                     <i className="far fa-file-alt mr-2"></i> Solicitar Orçamento
                   </Link>
                 </nav>
